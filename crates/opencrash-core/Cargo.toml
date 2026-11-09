@@ -1,0 +1,17 @@
+[package]
+name = "opencrash-core"
+description = "Traffic collision spatial query engine, intersection hazard scorer, and police report agency resolver"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+opencrash-pack = { path = "../opencrash-pack" }
+serde.workspace = true
+thiserror.workspace = true
+
+[lints]
+workspace = true

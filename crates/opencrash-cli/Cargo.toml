@@ -1,0 +1,24 @@
+[package]
+name = "opencrash"
+description = "Self-hosted traffic collision, intersection hazard, and police report jurisdiction engine in pure Rust"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "opencrash"
+path = "src/main.rs"
+
+[dependencies]
+opencrash-pack = { path = "../opencrash-pack" }
+opencrash-core = { path = "../opencrash-core" }
+anyhow.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

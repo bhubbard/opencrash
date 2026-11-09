@@ -1,0 +1,16 @@
+[package]
+name = "opencrash-pack"
+description = "Single-file memory-mapped Pack format for OpenCrash traffic collision, intersection hazard, and police agency indices"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true
+
+[lints]
+workspace = true
